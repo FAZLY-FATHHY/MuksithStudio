@@ -1,0 +1,132 @@
+.gratify-text
+{
+    color: #063970;
+    font-size: 4rem;
+    cursor: pointer;  
+    font-family: 'Parisienne', cursive;
+    
+}
+
+h1
+{
+    color: #063970 ;
+    font-family: "Barlow Condensed", sans-serif;
+  font-weight: 00;
+  font-style: normal;
+}    
+
+p
+{
+    font-weight: 600;
+}
+
+.destination
+{
+    margin: 4rem 6rem;
+
+}
+
+.destination h1
+{
+    font-size: 3rem;
+    margin-top: 80px;
+}
+
+.first-des
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem ;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 6s ease-out, transform 6s ease-out;
+  }
+  
+  .is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+@media screen and (max-width: 850px)
+{
+
+h1
+{
+    color: rgb(229, 184, 11) ;
+    font-family: "Great Vibes", cursive;
+  font-weight: 00;
+  font-style: normal;
+}    
+
+    .destination
+{
+    margin: 2rem 2rem;
+
+}
+
+.first-des
+{   
+
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem ;
+    margin-top: 200px;
+}
+
+.des-text
+{
+    margin-top: 350px;
+    width: 100%;
+}
+  
+.image
+    {
+        position: relative;
+        width: 2px; /* Adjust the width to your desired pixel value */
+        height: 1px;
+        display: flex;
+        justify-content: space-between;
+        z-index: -99;
+        left: -290px;
+        top: -50px;
+    }
+
+.image img
+{   
+    margin-top: 140px;
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-left: 160px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19)
+}
+
+.image img:nth-child(2)
+{   
+    margin-top: -70px;
+    margin-right:160px;
+    width: 150px;
+    height: 250px;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19)
+}
+
+.why h1
+{
+    font-size: 1rem;
+    font-family: 'Parisienne', cursive;
+}
+
+}
+
+.why h1
+{
+    font-size: 1rem;
+    
+}

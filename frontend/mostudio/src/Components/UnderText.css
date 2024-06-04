@@ -1,0 +1,523 @@
+.fullContainer img
+    {
+        margin-left: 200px;
+        margin-top: -1400px;
+    }
+
+.underText h2
+{
+    margin-left: 1550px;
+    margin-top: -200px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    text-align:justify;
+    color: black;
+}
+
+
+.fade-in-section-UnderText{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+  }
+  
+  .is-visible-UnderText{
+    opacity: 5;
+    transform: translateY(0);
+  }
+
+  @media screen and (max-width:2500px)
+  {
+
+    .fullContainer img
+    {
+        margin-left: -900px;
+        margin-top: -200px;
+    }
+    
+        .underText h2
+    {
+        margin-left: 1550px;
+        margin-top: -170px; 
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color: black;
+        font-size: 28px;
+    }
+    
+  }
+
+  @media screen and (max-width:2250px)
+  {
+
+    .fullContainer img
+    {
+        margin-left: -300px;
+        margin-top: -200px;
+    }
+    
+        .underText h2
+    {
+        margin-left: 1750px;
+        margin-top: -170px; 
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color: black;
+        font-size: 28px;
+    }
+    
+  } 
+
+  @media screen and (max-width:2000px)
+  {
+
+    .fullContainer img
+    {
+        margin-left: 50px;
+        margin-top: -200px;
+    }
+    
+        .underText h2
+    {
+        margin-left: 1750px;
+        margin-top: -170px; 
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color: black;
+        font-size: 28px;
+    }
+    
+  }
+
+  @media screen and (max-width:1600px)
+  {
+
+    .fullContainer img
+    {
+        margin-left: 50px;
+        margin-top: -600px;
+    }
+    
+        .underText h2
+    {
+        margin-left: 1450px;
+        margin-top: -200px; 
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color: black;
+        font-size: 28px;
+    }
+    
+  }
+
+  @media screen and (max-width:1400px)
+  {
+
+    .fullContainer img
+    {
+        margin-left: 200px;
+        margin-top: -200px;
+    }
+    
+        .underText h2
+    {
+        margin-left: 1450px;
+        margin-top: -170px; 
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color: black;
+        font-size: 28px;
+    }
+    
+  }
+
+  @media screen and (max-width:1300px)
+  {
+
+    .fullContainer img
+    {
+        margin-left: 200px;
+        margin-top: -300px;
+    }
+    
+        .underText h2
+    {
+        margin-left: 1350px;
+        margin-top: -170px; 
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color: black;
+        font-size: 28px;
+    }
+    
+  }
+
+  @media screen and (max-width:1150px)
+  {
+
+    .fullContainer img
+    {
+        margin-left: 200px;
+        margin-top: 890px;
+    }
+    
+        .underText h2
+    {
+        margin-left: 1250px;
+        margin-top: -190px; 
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color: black;
+        font-size: 28px;
+    }
+    
+  }
+    
+    
+
+  @media screen and (max-width:1050px)
+  {
+
+    .fullContainer img
+    {
+        margin-left: 200px;
+        margin-top: 300px;
+    }
+    
+        .underText h2
+    {
+        margin-left: 1150px;
+        margin-top: -170px; 
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color: black;
+        font-size: 28px;
+    }
+    
+  }
+    
+
+
+  @media screen and (max-width:855px)
+  {
+
+    .fullContainer img
+    {
+        margin-left: 380px;
+        margin-top: 300px;
+    }
+    
+        .underText h2
+    {
+        margin-left: 1225px;
+        margin-top: -170px; 
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color: black;
+        font-size: 18px;
+    }
+    
+  }
+    
+
+  @media screen and (max-width:770px)
+  {
+
+.fullContainer img
+{
+    margin-left: 380px;
+    margin-top: 300px;
+}
+
+    .underText h2
+{
+    margin-left: 1125px;
+    margin-top: -170px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+}
+
+  }
+
+  @media screen and (max-width:650px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 290px;
+}
+
+    .underText h2
+{
+    margin-left: 850px;
+    margin-top: 70px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 23px;
+}
+  }
+
+  @media screen and (max-width:600px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 890px;
+}
+
+    .underText h2
+{
+    margin-left: 855px;
+    margin-top: 50px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+}
+
+  }
+
+  
+  @media screen and (max-width:450px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 890px;
+}
+
+    .underText h2
+{
+    margin-left: 855px;
+    margin-top: 50px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 15px;
+}
+
+  }
+
+  @media screen and (max-width:431px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 890px;
+}
+
+    .underText h2
+{
+    margin-left: 855px;
+    margin-top: 50px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 15px;
+}
+
+  }
+ 
+  @media screen and (max-width:425px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 870px;
+}
+
+    .underText h2
+{
+    margin-left: 825px;
+    margin-top: 70px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+}
+
+  }
+
+  @media screen and (max-width:415px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 890px;
+}
+
+    .underText h2
+{
+    margin-left: 825px;
+    margin-top: 70px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+}
+
+  }
+
+  @media screen and (max-width:401px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 920px;
+}
+
+    .underText h2
+{
+    margin-left: 825px;
+    margin-top: 70px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+}
+
+  }
+
+  @media screen and (max-width:391px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 850px;
+}
+
+    .underText h2
+{
+    margin-left: 825px;
+    margin-top: 70px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+}
+
+  }
+    
+    
+    
+  @media screen and (max-width:376px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 950px;
+}
+
+    .underText h2
+{
+    margin-left: 810px;
+    margin-top: 70px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+}
+
+  }
+
+  @media screen and (max-width:361px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 920px;
+}
+
+    .underText h2
+{
+    margin-left: 810px;
+    margin-top: 40px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+}
+
+  }
+
+  @media screen and (max-width:325px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 1400px;
+}
+
+    .underText h2
+{
+    margin-left: 810px;
+    margin-top: 40px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+}
+
+  }
+
+  @media screen and (max-width:315px)
+  {
+
+.fullContainer img
+{
+    margin-left: 800px;
+    margin-top: 900px;
+}
+
+    .underText h2
+{
+    margin-left: 810px;
+    margin-top: 40px; 
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+}
+
+  }  
+ 
+  
+
+    

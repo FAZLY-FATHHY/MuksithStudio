@@ -1,0 +1,267 @@
+
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 5s ease-out, transform 5s ease-out;
+  }
+  
+  .is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.tripcardss
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 60px;
+    height: 440px;
+    margin-top: -30px;
+   
+}
+
+h2
+{
+    color: #063970;
+    font-family: "Edu TAS Beginner", cursive;
+    font-size: 50px;
+    padding-top: 20px;
+
+}
+
+@media screen and (max-width:1050px)
+{
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 10s ease-out, transform 10s ease-out;
+      }
+      
+      .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+ 
+ .tripcardss
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 60px;
+    height: 1040px;
+    
+}
+
+h2
+{
+    color: #063970;
+    font-family: "Edu TAS Beginner", cursive;
+    font-size: 50px;
+    padding-top: 10px;
+
+}
+}
+
+@media screen and (max-width:900px)
+{
+
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 10s ease-out, transform 10s ease-out;
+      }
+      
+      .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    
+    .tripcardss
+{
+  display: flex;
+   
+    margin-top: 50px;
+    margin-left: 39px;
+    justify-content: flex-start;
+    height: 1040px;
+
+}
+}
+
+
+
+@media screen and (max-width:650px)
+{
+
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 10s ease-out, transform 10s ease-out;
+      }
+      
+      .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    
+    .tripcardss
+{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 1px;
+    justify-content: flex-start;
+    height: 1040px;
+
+}
+}
+
+
+@media screen and (max-width:600px)
+{
+
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 10s ease-out, transform 10s ease-out;
+      }
+      
+      .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    
+    .tripcardss
+{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: flex-start;
+    height: 1040px;
+
+}
+}
+
+@media screen and (max-width:500px)
+{    
+
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 10s ease-out, transform 10s ease-out;
+      }
+      
+      .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+    .tripcardss
+{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 55px;
+    justify-content: flex-start;
+    height: 1040px;
+
+}
+}
+
+@media screen and (max-width:431px)
+{    
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 10s ease-out, transform 10s ease-out;
+      }
+      
+      .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+    .tripcardss
+{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 38px;
+    justify-content: flex-start;
+    height: 1040px;
+}
+
+}
+
+@media screen and (max-width:415px)
+{   
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 10s ease-out, transform 10s ease-out;
+      }
+      
+      .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      } 
+
+    .tripcardss
+{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 33px;
+    justify-content: flex-start;
+    height: 1040px;
+}
+
+}
+
+
+@media screen and (max-width:400px)
+{   
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 10s ease-out, transform 10s ease-out;
+      }
+      
+      .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      } 
+
+    .tripcardss
+{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 27px;
+    justify-content: flex-start;
+    height: 1040px;
+}
+
+}
+
+@media screen and (max-width:376px)
+{  
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 10s ease-out, transform 10s ease-out;
+      }
+      
+      .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+    .tripcardss
+{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 22px;
+    justify-content: flex-start;
+    height: 1040px;
+}
+
+}

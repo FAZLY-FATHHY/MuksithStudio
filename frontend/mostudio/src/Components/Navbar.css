@@ -1,0 +1,462 @@
+.NavbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border-radius: 13px;
+    height: 70px;
+    position: absolute;
+    left: 55%;
+    transform: translate(-50%);
+    z-index: 9999;
+}
+
+.liveStudio
+{
+    color: rgb(229, 184, 11);
+    margin-top: 60px;
+    margin-left: -600px;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+}
+
+.navbar-logo {
+    margin-left: -120px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.nav-menu {
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #fff; /* Black text color */
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 0.7rem 1rem;
+    margin-left: 30px;
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.nav-links:hover {
+    color: #fff; /* Change text color to white on hover */
+}
+
+.menu-icons {
+    display: none;
+
+}
+
+@media screen and (max-width: 1470px)
+{
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgba(0, 8, 16, 0.9);
+        border-radius: 13px;
+        width: 100%;
+        height: 140px;
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        opacity: 0;
+        align-items: center;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        transition: 0.5s ease-in-out;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .menu-icons {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .menu-icons svg {
+        font-size: 2rem;
+        color: #222;
+        cursor: pointer;
+    }
+
+    .liveStudio
+{
+    color: rgb(229, 184, 11);
+    margin-top: 60px;
+    margin-left: -900px;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+}
+
+.navbar-logo {
+    margin-left: -130px;
+    height: 100px;
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 1270px)
+{
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgba(0, 8, 16, 0.9);
+        border-radius: 13px;
+        width: 100%;
+        height: 140px;
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        opacity: 0;
+        align-items: center;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        transition: 0.5s ease-in-out;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .menu-icons {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .menu-icons svg {
+        font-size: 2rem;
+        color: #222;
+        cursor: pointer;
+    }
+
+    .liveStudio
+{
+    color: rgb(229, 184, 11);
+    margin-top: 60px;
+    margin-left: -790px;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+}
+
+.navbar-logo {
+    margin-left: -90px;
+    height: 100px;
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 1100px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -700px;
+        font-size: 40px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -75px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1020px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -600px;
+        font-size: 40px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -75px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -550px;
+        font-size: 40px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -70px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -500px;
+        font-size: 40px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -75px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -400px;
+        font-size: 40px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -75px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -300px;
+        font-size: 40px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -75px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+
+    .liveStudio
+    {
+        display: none;
+    }
+    
+    .navbar-logo {
+        margin-left: -55px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -170px;
+        font-size: 40px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -55px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav-menu {
+        padding: 30px 0 5px 0;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        margin-left: 0;
+    }
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -100px;
+        font-size: 40px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -35px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+ 
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -50px;
+        font-size: 30px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -35px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+ 
+
+    .liveStudio
+    {
+        color: rgb(229, 184, 11);
+        margin-top: 60px;
+        margin-left: -30px;
+        font-size: 30px;
+        font-family: "Great Vibes", cursive;
+    }
+    
+    .navbar-logo {
+        margin-left: -35px;
+        height: 100px;
+        margin-top: 30px;
+    }
+}
+
+
+.nav-links {
+    color: #fff; /* Default text color for smaller screens */
+    font-size: 25px;
+    letter-spacing: 0.3px;
+    padding: 0 10px;
+}
+
+.nav-links:hover::after {
+    width: 100%;
+}
+
+@media screen and (min-width: 1071px) {
+    .nav-links {
+        color: #222; /* Black text color for large screens */
+    }
+}

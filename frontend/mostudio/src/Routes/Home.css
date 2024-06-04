@@ -1,0 +1,60 @@
+.Container
+{
+    width: 110%;
+   
+}
+
+.UnderText
+{
+    margin-top: 650px;
+    margin-left: -800px;
+}
+
+
+.background {
+    background-image: url("C:\SWSetup\Desktop\Mukshith Studio\frontend\mostudio\src\Assets\DSC_7088 copy (3).jpg");
+    height: 105vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: aliceblue;
+    font-weight: 700;
+    margin-top: -70px;
+  }
+
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+  }s
+  
+  .is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .UnderText
+      {
+        margin-top: 320px;
+      }
+  
+
+@media screen and ( max-width: 1070px)
+{
+    .background {
+        background-image:url('https://vinesoftheyarravalley.com.au/wp-content/uploads/2021/04/How-to-Look-Good-in-Kissing-Photos-1-1024x597.jpg');
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: aliceblue;
+        font-weight: 700;
+      }
+
+      .UnderText
+      {
+        margin-top: -820px;
+      }
+}
